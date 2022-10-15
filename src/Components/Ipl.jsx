@@ -3,7 +3,7 @@ import React from 'react'
 const Ipl = () => {
   return (
     <div>
-      hello ipl
+      <h3>IPL Data Visualization Dashboard</h3>
     </div>
   )
 }

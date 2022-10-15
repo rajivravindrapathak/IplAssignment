@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Ipl from './Components/Ipl'
+import AllRoutes from './Components/AllRoutes'
 
 function App() {
 
   return (
     <div className="App">
-     <Ipl />
+     
+    <AllRoutes />
     </div>
   )
 }
