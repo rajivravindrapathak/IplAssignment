@@ -8,20 +8,21 @@ const Navbar = () => {
   return (
     <div>
       <SimpleGrid columns={3} spacing="10px">
-        <Box bg="tomato" width="1366px" height="80px" />
+        <Box bg="#a21d46" width="1366px" height="80px" />
         <div className='pagelink'>
-          <Link to="/data">Data</Link>
-          <Link to="code" >Code</Link>
-          <Link to="discussion">Discussion</Link>
+          <Link to="/data" id='lin' >Data</Link>
+          <Link to="/code" id='lin' >Code</Link>
+          <Link to="/discussion" id='lin'>Discussion</Link>
         </div>
         <Flex minWidth='max-content' alignItems='center' gap='2'>
           <Spacer />
           <ButtonGroup gap='2'>
-            <Button backgroundColor="tomato" color="white" border="none"><Link to="signup">SignUp</Link> </Button>
-            <Button backgroundColor="tomato" color="white" border="none"><Link to="login" >LogIn</Link></Button>
+            <Button backgroundColor="#a21d46" color="white" border="none"><Link id='lin' to="signup">SignUp</Link> </Button>
+            <Button backgroundColor="#a21d46" color="white" border="none"><Link id='lin' to="login" >LogIn</Link></Button>
           </ButtonGroup>
         </Flex>
       </SimpleGrid>
+      
     </div>
   )
 }

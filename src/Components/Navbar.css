@@ -1,5 +1,16 @@
 .pagelink {
     padding: 25px;
-    margin-left: 5%;
+    margin: 10px;
     color: azure;
 }
+
+#lin {
+    text-decoration: none;
+    margin: 5%;
+    color: azure;
+}
+
+#lin:hover {
+    color: rgb(140, 216, 216);
+}
+

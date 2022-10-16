@@ -3,6 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'rec
 
 const Discussion = () => {
 
+
   const data = [
     {
       name: 'Page A',
@@ -50,6 +51,7 @@ const Discussion = () => {
 
   return (
     <div>
+      <h1>Discussion page</h1>
        <BarChart
           width={500}
           height={300}
