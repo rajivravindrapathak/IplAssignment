@@ -1,0 +1,9 @@
+.inputDiv > input {
+    margin: 10px;
+}
+
+.Lbtn {
+    background-color: rgb(61, 199, 6);
+    border: none;
+    color: white;
+}
